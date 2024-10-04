@@ -18,7 +18,7 @@ load_dotenv()
 openai.api_key = os.environ['OPENAI_API_KEY']
 
 CHROMA_PATH = "chroma"
-DATA_PATH = "../docs-scaling/docs"
+DATA_PATH = "data/docs"
 
 
 def main():
